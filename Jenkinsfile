@@ -6,6 +6,10 @@ pipeline {
     }
   }
 
+  tools {
+    nodejs "nodejs"
+  }
+
   stages {
     stage('build and test') {
       steps {
